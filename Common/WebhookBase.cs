@@ -6,7 +6,7 @@ namespace Waveshare_RoArm_Communicator.Common
 {
 	public abstract class WebHookBase : IWebHookPath
 	{
-		private const string API_KEY = "Xwaveshare511"; // Store securely in real applications
+		private const string API_KEY = "YOUR_API_KEY_HERE"; // Store securely in real applications
 
 		public abstract string Path { get; } // Must be defined in derived classes
 
